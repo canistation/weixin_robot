@@ -48,7 +48,7 @@ module Sinatra
       include MessageHelpers
       attr_reader :robot, :user,
                   :create_time,
-                  :raw_meesage,
+                  :raw_message,
                   :content,
                   :pic_url,
                   :title, :description, :url,
